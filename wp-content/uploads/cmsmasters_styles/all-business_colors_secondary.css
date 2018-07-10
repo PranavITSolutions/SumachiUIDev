@@ -1,0 +1,796 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	All Business
+ * @version 	1.1.1
+ * 
+ * Theme Secondary Color Schemes Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+/***************** Start Header Middle Color Scheme Rules ******************/
+
+	/* Start Header Middle Content Color */
+	.header_mid,
+	.header_mid input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	.header_mid textarea,
+	.header_mid select,
+	.header_mid option,
+	.header_mid .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button,
+	.header_mid .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover,
+	.header_mid .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a {
+		color:#ffffff;
+	}
+	/* Finish Header Middle Content Color */
+	
+	
+	/* Start Header Middle Primary Color */
+	.header_mid a,
+	.header_mid .mid_search_but_wrap .mid_search_but,
+	#page .header_mid .cmsmasters_social_icon,
+	.header_mid .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:before,
+	.header_mid .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li .quantity,
+	.cmsmasters_header_search_form .cmsmasters_header_search_form_close,
+	.cmsmasters_header_search_form button {
+		color:#ffffff;
+	}
+	
+	.header_mid .button:hover,
+	.header_mid input[type=submit]:hover,
+	.header_mid input[type=button]:hover,
+	.header_mid button:hover,
+	.header_mid .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button {
+		background-color:#ffffff;
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		.header_mid .resp_mid_nav .resp_nav_button,
+		.header_mid .resp_mid_nav .resp_nav_button:before,
+		.header_mid .resp_mid_nav .resp_nav_button:after {
+			background-color:#ffffff;
+		}
+	}
+	/* Finish Header Middle Primary Color */
+	
+	
+	/* Start Header Middle Rollover Color */
+	.header_mid a:hover, 
+	.header_mid .mid_search_but_wrap .mid_search_but:hover,
+	#page .header_mid .cmsmasters_social_icon:hover,
+	.header_mid .cmsmasters_dynamic_cart:hover .cmsmasters_dynamic_cart_button:before,
+	.header_mid .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a:hover,
+	.header_mid .cmsmasters_dynamic_cart .widget_shopping_cart_content .total .amount,
+	.cmsmasters_header_search_form .cmsmasters_header_search_form_close:hover,
+	.cmsmasters_header_search_form button:hover {
+		color:#00bcd4;
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		.header_mid .resp_mid_nav:hover .resp_nav_button,
+		.header_mid .resp_mid_nav:hover .resp_nav_button:before,
+		.header_mid .resp_mid_nav:hover .resp_nav_button:after,
+		.header_mid .resp_mid_nav.active .resp_nav_button,
+		.header_mid .resp_mid_nav.active .resp_nav_button:before,
+		.header_mid .resp_mid_nav.active .resp_nav_button:after {
+			background-color:#00bcd4;
+		}
+	}
+	
+	.header_mid .button, 
+	.header_mid input[type=submit], 
+	.header_mid input[type=button], 
+	.header_mid button,
+	.header_mid .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button:hover {
+		background-color:#00bcd4;
+	}
+	
+	.header_mid input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus,
+	.header_mid textarea:focus,
+	.header_mid select:focus,
+	.cmsmasters_header_search_form input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus {
+		border-color:#00bcd4;
+	}
+	
+	.header_mid .search_wrap .search_bar_wrap input[type=search]:focus {
+		-webkit-box-shadow:inset 0 -1px 0 0 rgba(0, 188, 212, 1);
+		-moz-box-shadow:inset 0 -1px 0 0 rgba(0, 188, 212, 1);
+		box-shadow:inset 0 -1px 0 0 rgba(0, 188, 212, 1);
+	}
+	/* Finish Header Middle Rollover Color */
+	
+	
+	/* Start Header Middle Background Color */
+	.header_mid .button,
+	.header_mid input[type=submit],
+	.header_mid input[type=button],
+	.header_mid button,
+	.header_mid .button:hover,
+	.header_mid input[type=submit]:hover,
+	.header_mid input[type=button]:hover,
+	.header_mid button:hover {
+		color:rgba(255,255,255,0);
+	}
+	
+	.header_mid,
+	.header_mid input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	.header_mid textarea,
+	.header_mid select,
+	.header_mid option,
+	.header_mid .cmsmasters_added_product_info {
+		background-color:rgba(255,255,255,0);
+	}
+	/* Finish Header Middle Background Color */
+	
+	
+	/* Start Header Middle Background Color on Scroll */
+	.header_mid .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button,
+	.header_mid .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button:hover {
+		color:rgba(36,36,36,0.9);
+	}
+	
+	.header_mid.header_mid_scroll,
+	.header_mid .cmsmasters_dynamic_cart .widget_shopping_cart_content {
+		background-color:rgba(36,36,36,0.9);
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		.header_mid {
+			background-color:rgba(36,36,36,0.9);
+		}
+	}
+	/* Finish Header Middle Background Color on Scroll */
+	
+	
+	/* Start Header Middle Borders Color */
+	.header_mid input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	.header_mid textarea,
+	.header_mid select,
+	.header_mid option,
+	.cmsmasters_header_search_form input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]) {
+		border-color:rgba(255,255,255,0.25);
+	}
+	/* Finish Header Middle Borders Color */
+	
+	
+	/* Start Header Middle Custom Rules */
+	.header_mid ::selection {
+		background:#ffffff;
+		color:rgba(255,255,255,0);
+	}
+	
+	.header_mid ::-moz-selection {
+		background:#ffffff;
+		color:rgba(255,255,255,0);
+	}
+	/* Finish Header Middle Custom Rules */
+
+/***************** Finish Header Middle Color Scheme Rules ******************/
+
+
+
+/***************** Start Header Bottom Color Scheme Rules ******************/
+
+	/* Start Header Bottom Content Color */
+	.header_bot,
+	.header_bot input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	.header_bot textarea,
+	.header_bot select,
+	.header_bot option {
+		color:#ffffff;
+	}
+	/* Finish Header Bottom Content Color */
+	
+	
+	/* Start Header Bottom Primary Color */
+	.header_bot a {
+		color:rgba(255,255,255,0.65);
+	}
+	
+	.header_bot .button:hover, 
+	.header_bot input[type=submit]:hover, 
+	.header_bot input[type=button]:hover, 
+	.header_bot button:hover, 
+	.header_bot .search_wrap .search_bar_wrap .search_button button:hover, 
+	.header_bot .search_wrap.search_opened .search_bar_wrap .search_button button {
+		background-color:rgba(255,255,255,0.65);
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		.header_bot .resp_nav_button,
+		.header_bot .resp_nav_button:before,
+		.header_bot .resp_nav_button:after {
+			background-color:rgba(255,255,255,0.65);
+		}
+	}
+	/* Finish Header Bottom Primary Color */
+	
+	
+	/* Start Header Bottom Rollover Color */
+	.header_bot a:hover {
+		color:#ffffff;
+	}
+	
+	.header_bot .button, 
+	.header_bot input[type=submit], 
+	.header_bot input[type=button], 
+	.header_bot button,
+	.header_bot .search_wrap .search_bar_wrap .search_button button {
+		background-color:#ffffff;
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		.header_bot .resp_bot_nav:hover .resp_nav_button,
+		.header_bot .resp_bot_nav:hover .resp_nav_button:before,
+		.header_bot .resp_bot_nav:hover .resp_nav_button:after,
+		.header_bot .resp_bot_nav.active .resp_nav_button,
+		.header_bot .resp_bot_nav.active .resp_nav_button:before,
+		.header_bot .resp_bot_nav.active .resp_nav_button:after {
+			background-color:#ffffff;
+		}
+	}
+	
+	.header_bot input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus,
+	.header_bot textarea:focus,
+	.header_bot select:focus {
+		border-color:#ffffff;
+	}
+	/* Finish Header Bottom Rollover Color */
+	
+	
+	/* Start Header Bottom Background Color */
+	.header_bot .button, 
+	.header_bot input[type=submit], 
+	.header_bot input[type=button], 
+	.header_bot button, 
+	.header_bot .search_wrap .search_bar_wrap .search_button button {
+		color:#00bcd4;
+	}
+	
+	.header_bot,
+	.header_bot input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	.header_bot textarea,
+	.header_bot select,
+	.header_bot option {
+		background-color:#00bcd4;
+	}
+	/* Finish Header Bottom Background Color */
+	
+	
+	/* Start Header Bottom Background Color on Scroll */
+	.header_bot.header_bot_scroll {
+		background-color:#00bcd4;
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		.header_bot {
+			background-color:#00bcd4;
+		}
+	}
+	/* Finish Header Bottom Background Color on Scroll */
+	
+	
+	/* Start Header Bottom Borders Color */
+	.header_bot input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	.header_bot textarea,
+	.header_bot select,
+	.header_bot option {
+		border-color:rgba(255,255,255,0.25);
+	}
+	/* Finish Header Bottom Borders Color */
+	
+	
+	/* Start Header Bottom Custom Rules */
+	.header_bot ::selection {
+		background:rgba(255,255,255,0.65);
+		color:#00bcd4;
+	}
+	
+	.header_bot ::-moz-selection {
+		background:rgba(255,255,255,0.65);
+		color:#00bcd4;
+	}
+	/* Finish Header Bottom Custom Rules */
+
+/***************** Finish Header Bottom Color Scheme Rules ******************/
+
+
+
+/***************** Start Navigation Color Scheme Rules ******************/
+
+	/* Start Navigation Title Link Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li > a {
+			color:#ffffff;
+		}
+	}
+	/* Finish Navigation Title Link Color */
+	
+	
+	/* Start Navigation Title Link Hover Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li > a:hover,
+		ul.navigation > li > a:hover .nav_subtitle,
+		ul.navigation > li:hover > a,
+		ul.navigation > li:hover > a .nav_subtitle {
+			color:#ffffff;
+		}
+	}
+	/* Finish Navigation Title Link Hover Color */
+	
+	
+	/* Start Navigation Title Link Current Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li.menu-item.current-menu-item > a,
+		ul.navigation > li.menu-item.current-menu-item > a .nav_subtitle,
+		ul.navigation > li.menu-item.current-menu-ancestor > a,
+		ul.navigation > li.menu-item.current-menu-ancestor > a .nav_subtitle,
+		ul.navigation > li > a .nav_tag {
+			color:#ffffff;
+		}
+		
+		.navigation .magic-line-nav {
+			background-color:#ffffff;
+		}
+	}
+	/* Finish Navigation Title Link Current Color */
+	
+	
+	/* Start Navigation Title Link Subtitle Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li > a .nav_subtitle {
+			color:rgba(255,255,255,0.65);
+		}
+		
+		ul.navigation > li > a .nav_tag {
+			background-color:rgba(255,255,255,0.65);
+		}
+		
+		ul.navigation > li > a .nav_tag:before {
+			border-color:rgba(255,255,255,0.65);
+		}
+	}
+	/* Finish Navigation Title Link Subtitle Color */
+	
+	
+	/* Start Navigation Title Link Background Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li > a {
+			background-color:rgba(255,255,255,0);
+		}
+	}
+	/* Finish Navigation Title Link Background Color */
+	
+	
+	/* Start Navigation Title Link Hover Background Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li > a:hover,
+		ul.navigation > li:hover > a {
+			background-color:transparent;
+		}
+		
+		.navigation:hover .magic-bg-nav {
+			background-color:rgba(255,255,255,0.1);
+		}
+	}
+	/* Finish Navigation Title Link Hover Background Color */
+	
+	
+	/* Start Navigation Title Link Current Background Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li.menu-item.current-menu-item > a, 
+		ul.navigation > li.menu-item.current-menu-ancestor > a {
+			background-color:rgba(255,255,255,0);
+		}
+	}
+	/* Finish Navigation Title Link Current Background Color */
+	
+	
+	/* Start Navigation Title Link Border Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li:before {
+			background-color:rgba(255,255,255,0);
+		}
+		
+		.navigation:hover .magic-bg-nav {
+			border-color:rgba(255,255,255,0);
+		}
+	}
+	/* Finish Navigation Title Link Border Color */
+	
+	
+	/* Start Navigation Dropdown Text Color */
+	.navigation li .menu-item-mega-description-container, 
+	.navigation li .menu-item-mega-description-container * {
+		color:#626262;
+	}
+	/* Finish Navigation Dropdown Tex Color */
+	
+	
+	/* Start Navigation Dropdown Background Color */
+	@media only screen and (max-width: 1024px) {
+		ul.navigation {
+			background-color:#212121;
+		}
+	}
+	
+	@media only screen and (min-width: 1025px) {
+		ul.navigation ul, 
+		ul.navigation .menu-item-mega-container,
+		#header nav > div > ul div.menu-item-mega-container > ul > li > a:hover,
+		#header nav > div > ul div.menu-item-mega-container > ul > li:hover > a {
+			background-color:#212121;
+		}
+	}
+	/* Finish Navigation Dropdown Background Color */
+	
+	
+	/* Start Navigation Dropdown Border Color */
+	@media only screen and (min-width: 1025px) {
+		/* ul.navigation ul,
+		ul.navigation .menu-item-mega-container, */
+		ul.navigation .menu-item-mega-container > ul > li {
+			border-color:rgba(228,228,228,0.1);
+		}
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		ul.navigation li {
+			border-color:rgba(228,228,228,0.1);
+		}
+	}
+	/* Finish Navigation Dropdown Border Color */
+	
+	
+	/* Start Navigation Dropdown Link Color */
+	.navigation li a,
+	#header nav > div > ul div.menu-item-mega-container > ul > li > a:hover {
+		color:#626262;
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		.navigation > li > a {
+			color:#626262;
+		}
+	}
+	/* Finish Navigation Dropdown Link Color */
+	
+	
+	/* Start Navigation Dropdown Link Hover Color */
+	.navigation li > a:hover,
+	.navigation li > a:hover .nav_subtitle,
+	.navigation li.current-menu-item > a, 
+	.navigation li.current-menu-item > a .nav_subtitle, 
+	.navigation li a .nav_tag {
+		color:#ffffff;
+	}
+	
+	@media only screen and (min-width: 1025px) {
+		ul.navigation li > ul li:hover > a, 
+		ul.navigation li > ul li:hover > a .nav_subtitle, 
+		ul.navigation li > ul li.current-menu-ancestor > a, 
+		ul.navigation li > ul li.current-menu-ancestor > a .nav_subtitle {
+			color:#ffffff;
+		}
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		.navigation > li > a:hover,
+		.navigation > li > a:hover .nav_subtitle,
+		.navigation > li:hover > a,
+		.navigation > li:hover > a .nav_subtitle,
+		.navigation > li.current-menu-item > a, 
+		.navigation > li.current-menu-item > a .nav_subtitle, 
+		.navigation > li.current-menu-ancestor > a, 
+		.navigation > li.current-menu-ancestor > a .nav_subtitle, 
+		.navigation > li a .nav_tag,
+		#header nav > div > ul div.menu-item-mega-container > ul > li > a:hover,
+		#header nav > div > ul div.menu-item-mega-container > ul > li:hover > a {
+			color:#ffffff;
+		}
+	}
+	/* Finish Navigation Dropdown Link Hover Color */
+	
+	
+	/* Start Navigation Dropdown Link Subtitle Color */
+	.navigation li a .nav_subtitle {
+		color:#626262;
+	}
+	
+	.navigation li a .nav_tag {
+		background-color:#626262;
+	}
+	/* Finish Navigation Dropdown Link Subtitle Color */
+	
+	
+	/* Start Navigation Dropdown Link Hover Highlight Color */
+	.navigation li > a:hover,
+	.navigation li:hover > a,
+	.navigation li.current-menu-item > a {
+		background-color:rgba(250,250,250,0.1);
+	}
+	
+	@media only screen and (min-width: 1025px) {
+		ul.navigation li > ul li:hover > a, 
+		ul.navigation li > ul li.current-menu-ancestor > a {
+			background-color:rgba(250,250,250,0.1);
+		}
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		.navigation > li > a:hover,
+		.navigation > li:hover > a,
+		.navigation li.current-menu-item > a,
+		.navigation li.current-menu-item > a .nav_subtitle,
+		.navigation li.current-menu-ancestor > a,
+		.navigation li.current-menu-ancestor > a .nav_subtitle {
+			background-color:rgba(250,250,250,0.1);
+		}
+	}
+	/* Finish Navigation Dropdown Link Hover Highlight Color */
+	
+	
+	/* Start Navigation Dropdown Link Border Color */
+	.navigation li {
+		border-color:rgba(255,255,255,0);
+	}
+	/* Finish Navigation Dropdown Link Border Color */
+	
+	
+	/* Start Other Elemets Navigation */
+	@media only screen and (max-width: 1024px) {
+		.navigation li a:hover .cmsmasters_resp_nav_toggle,
+		.navigation li.current-menu-item > a .cmsmasters_resp_nav_toggle,
+		.navigation li.current-menu-ancestor > a .cmsmasters_resp_nav_toggle {
+			color:#00bcd4;
+		}
+	}
+	
+	@media only screen and (min-width: 1025px) {
+		#header .menu-item-mega-container > .sub-menu .sub-menu:hover > .magic-mega-drop-bg-nav,
+		#header #navigation > li > .sub-menu:hover > .magic-drop-bg-nav,
+		#header #navigation > li > .sub-menu .sub-menu:hover > .magic-drop-bg-chn-nav,
+		#header .menu-item-mega-container > ul > li > ul .current_page_item a:after,
+		#header #navigation > li > .sub-menu .current_page_item a:after,
+		#header #navigation > li > .sub-menu  .sub-menu .current_page_item a:after,
+		#header nav > div > ul li.current-menu-ancestor .sub-menu .current-menu-ancestor > a:after {
+			background-color:#00bcd4;
+		}
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		#header nav a:hover:after,
+		#header #navigation > li:hover > a:after,
+		#header #navigation > li.current-menu-ancestor > a:after,
+		#header #navigation > li.current_page_item > a:after,
+		#header nav > div > ul > li > ul .current_page_item > a:after,
+		#header nav > div > ul div.menu-item-mega-container > ul > li > a:hover:after,
+		#header nav > div > ul div.menu-item-mega-container > ul > li:hover > a:after,
+		#header nav > div > ul div.menu-item-mega-container > ul > li.current_page_item > a:after,
+		#header nav > div > ul div.menu-item-mega-container > ul > li.current-menu-ancestor > a:after {
+			background-color:#00bcd4;
+		}
+	}
+	/* Finish Other Elemets Navigation */
+
+/***************** Finish Navigation Color Scheme Rules ******************/
+
+
+
+/***************** Start Header Top Color Scheme Rules ******************/
+
+	/* Start Header Top Content Color */
+	.header_top {
+		color:rgba(255,255,255,0.76);
+	}
+	/* Finish Header Top Content Color */
+	
+	
+	/* Start Header Top Primary Color */
+	.header_top a,
+	.header_top .header_top_but {
+		color:#ffffff;
+	}
+	
+	#page .header_top .cmsmasters_social_icon {
+		color:rgba(255, 255, 255, .25);
+	}
+	
+	.header_top .responsive_top_nav .resp_top_nav_button,
+	.header_top .responsive_top_nav .resp_top_nav_button:after,
+	.header_top .responsive_top_nav .resp_top_nav_button:before {
+		background-color:#ffffff;
+	}
+	/* Finish Header Top Primary Color */
+	
+	
+	/* Start Header Top Rollover Color */
+	.header_top a:hover,
+	.header_top .meta_wrap [class^=cmsmasters-icon-]:before,
+	.header_top .meta_wrap [class*= cmsmasters-icon-]:before,
+	.header_top .responsive_top_nav,
+	.header_top .header_top_but:hover,
+	.header_top .header_top_but.opened,
+	#page .header_top .cmsmasters_social_icon:hover,
+	.header_top .meta_wrap > *:before {
+		color:#00bcd4;
+	}
+	
+	.header_top .responsive_top_nav:hover .resp_top_nav_button,
+	.header_top .responsive_top_nav:hover .resp_top_nav_button:after,
+	.header_top .responsive_top_nav:hover .resp_top_nav_button:before,
+	.header_top .responsive_top_nav.active .resp_top_nav_button,
+	.header_top .responsive_top_nav.active .resp_top_nav_button:after,
+	.header_top .responsive_top_nav.active .resp_top_nav_button:before {
+		background-color:#00bcd4;
+	}
+	/* Finish Header Top Rollover Color */
+	
+	
+	/* Start Header Top Background Color */
+	.header_top {
+		background-color:rgba(255,255,255,0);
+	}
+	/* Finish Header Top Background Color */
+	
+	
+	/* Start Header Top Borders Color */
+	.header_top .header_top_inner:before {
+		background-color:rgba(255,255,255,0.2);
+	}
+	
+	.header_top .header_top_but,
+	.header_top .responsive_top_nav {
+		border-color:rgba(255,255,255,0.2);
+	}
+	/* Finish Header Top Borders Color */
+	
+	
+	/* Start Header Top Custom Rules */
+	.header_top ::selection {
+		background:#ffffff;
+		color:rgba(255,255,255,0);
+	}
+	
+	.header_top ::-moz-selection {
+		background:#ffffff;
+		color:rgba(255,255,255,0);
+	}
+	/* Finish Header Top Custom Rules */
+
+/***************** Finish Header Top Color Scheme Rules ******************/
+
+
+
+/***************** Start Header Top Navigation Color Scheme Rules ******************/
+
+	/* Start Header Top Navigation Title Link Color */
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav > li > a {
+			color:#212121;
+		}
+	}
+	/* Finish Header Top Navigation Title Link Color */
+	
+	
+	/* Start Header Top Navigation Title Link Hover Color */
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav > li > a:hover,
+		ul.top_line_nav > li:hover > a,
+		ul.top_line_nav > li.current-menu-item > a,
+		ul.top_line_nav > li.current-menu-ancestor > a {
+			color:#00bcd4;
+		}
+	}
+	/* Finish Header Top Navigation Title Link Hover Color */
+	
+	
+	/* Start Header Top Navigation Title Link Background Color */
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav > li > a {
+			background-color:rgba(255,255,255,0);
+		}
+	}
+	/* Finish Header Top Navigation Title Link Background Color */
+	
+	
+	/* Start Header Top Navigation Title Link Hover Background Color */
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav > li > a:hover,
+		ul.top_line_nav > li:hover > a,
+		ul.top_line_nav > li.current-menu-item > a,
+		ul.top_line_nav > li.current-menu-ancestor > a {
+			background-color:rgba(255,255,255,0);
+		}
+	}
+	/* Finish Header Top Navigation Title Link Hover Background Color */
+	
+	
+	/* Start Header Top Navigation Title Link Border Color */
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav > li:hover {
+			border-color:rgba(255,255,255,0);
+		}
+		
+		ul.top_line_nav > li:hover + li {
+			border-left-color:rgba(255,255,255,0);
+		}
+	}
+	/* Finish Header Top Navigation Title Link Border Color */
+	
+	
+	/* Start Header Top Navigation Dropdown Background Color */
+	@media only screen and (max-width: 1024px) {
+		ul.top_line_nav {
+			background-color:#ffffff;
+		}
+	}
+	
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav ul {
+			background-color:#ffffff;
+		}
+	}
+	/* Finish Header Top Navigation Dropdown Background Color */
+	
+	
+	/* Start Header Top Navigation Dropdown Border Color */
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav ul {
+			border-color:rgba(255,255,255,0);
+		}
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		.top_nav_wrap .top_line_nav li {
+			border-color:rgba(255,255,255,0);
+		}
+	}
+	/* Finish Header Top Navigation Dropdown Border Color */
+	
+	
+	/* Start Header Top Navigation Dropdown Link Color */
+	.top_line_nav li a {
+		color:#212121;
+	}
+	/* Finish Header Top Navigation Dropdown Link Color */
+	
+	
+	/* Start Header Top Navigation Dropdown Link Hover Color */
+	.top_line_nav li > a:hover,
+	.top_line_nav li.current-menu-item > a {
+		color:#00bcd4;
+	}
+	
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav ul li:hover > a, 
+		ul.top_line_nav ul li.current-menu-ancestor > a {
+			color:#00bcd4;
+		}
+	}
+	/* Finish Header Top Navigation Dropdown Link Hover Color */
+	
+	
+	/* Start Header Top Navigation Dropdown Link Hover Highlight Color */
+	.top_line_nav li > a:hover,
+	.top_line_nav li.current-menu-item > a {
+		background-color:rgba(255,255,255,0);
+	}
+	
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav ul li:hover > a,
+		ul.top_line_nav ul li.current-menu-ancestor > a {
+			background-color:rgba(255,255,255,0);
+		}
+	}
+	/* Finish Header Top Navigation Dropdown Link Hover Highlight Color */
+	
+	
+	/* Start Header Top Navigation Dropdown Link Border Color */
+	.top_line_nav li {
+		border-color:rgba(255,255,255,0);
+	}
+	/* Finish Header Top Navigation Dropdown Link Border Color */
+
+/***************** Finish Header Top Navigation Color Scheme Rules ******************/
+
